@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2AF555C721B3889700081884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF555C621B3889700081884 /* AppDelegate.swift */; };
-		2AF555C921B3889700081884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF555C821B3889700081884 /* ViewController.swift */; };
-		2AF555CC21B3889700081884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF555CA21B3889700081884 /* Main.storyboard */; };
 		2AF555CF21B3889700081884 /* FishingAddict.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AF555CD21B3889700081884 /* FishingAddict.xcdatamodeld */; };
 		2AF555D121B3889800081884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF555D021B3889800081884 /* Assets.xcassets */; };
-		2AF555D421B3889800081884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF555D221B3889800081884 /* LaunchScreen.storyboard */; };
 		2AF555DF21B3889900081884 /* FishingAddictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF555DE21B3889900081884 /* FishingAddictTests.swift */; };
 		2AF555EA21B3889900081884 /* FishingAddictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF555E921B3889900081884 /* FishingAddictUITests.swift */; };
+		2AF555F821B39A1600081884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AF555F721B39A1600081884 /* GoogleService-Info.plist */; };
+		2AF555FB21B3CB4500081884 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF555FA21B3CB4500081884 /* Login.storyboard */; };
+		2AF555FD21B3CBEE00081884 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF555FC21B3CBEE00081884 /* LoginViewController.swift */; };
+		2AF5560421B4754100081884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF5560321B4754100081884 /* Main.storyboard */; };
+		2AF5560621B4758F00081884 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5560521B4758F00081884 /* MainViewController.swift */; };
+		741ADA76968DEBB23CA15DAE /* Pods_FishingAddictTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689D2789CC187A6BB0BD4F4B /* Pods_FishingAddictTests.framework */; };
+		B9E7F4F82F35126BA2701D38 /* Pods_FishingAddictUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A23BCB27CE10E2CA070B6F6 /* Pods_FishingAddictUITests.framework */; };
+		BE560F800AAC4FC508B19282 /* Pods_FishingAddict.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7210BB567676195CA98B4C66 /* Pods_FishingAddict.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A23BCB27CE10E2CA070B6F6 /* Pods_FishingAddictUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishingAddictUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF555C321B3889700081884 /* FishingAddict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishingAddict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF555C621B3889700081884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AF555C821B3889700081884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2AF555CB21B3889700081884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AF555CE21B3889700081884 /* FishingAddict.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishingAddict.xcdatamodel; sourceTree = "<group>"; };
 		2AF555D021B3889800081884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2AF555D321B3889800081884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF555D521B3889800081884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AF555DA21B3889900081884 /* FishingAddictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishingAddictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF555DE21B3889900081884 /* FishingAddictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingAddictTests.swift; sourceTree = "<group>"; };
@@ -49,6 +52,20 @@
 		2AF555E521B3889900081884 /* FishingAddictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishingAddictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF555E921B3889900081884 /* FishingAddictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingAddictUITests.swift; sourceTree = "<group>"; };
 		2AF555EB21B3889900081884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF555F721B39A1600081884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2AF555F921B3B73800081884 /* FishingAddict.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FishingAddict.entitlements; sourceTree = "<group>"; };
+		2AF555FA21B3CB4500081884 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		2AF555FC21B3CBEE00081884 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2AF5560321B4754100081884 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2AF5560521B4758F00081884 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4A20ED41B4AFEAF1C3FC6226 /* Pods-FishingAddictTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddictTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddictTests/Pods-FishingAddictTests.release.xcconfig"; sourceTree = "<group>"; };
+		689D2789CC187A6BB0BD4F4B /* Pods_FishingAddictTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishingAddictTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD899EE324D29C4178075B9 /* Pods-FishingAddictUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddictUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddictUITests/Pods-FishingAddictUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7210BB567676195CA98B4C66 /* Pods_FishingAddict.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishingAddict.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AE1FF59281F4A4A5F09101 /* Pods-FishingAddict.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddict.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddict/Pods-FishingAddict.release.xcconfig"; sourceTree = "<group>"; };
+		8184AD80A6FBDF853380D72A /* Pods-FishingAddictTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddictTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddictTests/Pods-FishingAddictTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E59E93F879CE199E4D86EF65 /* Pods-FishingAddictUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddictUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddictUITests/Pods-FishingAddictUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6B9E109A9060837BB5D5C93 /* Pods-FishingAddict.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddict.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddict/Pods-FishingAddict.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE560F800AAC4FC508B19282 /* Pods_FishingAddict.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741ADA76968DEBB23CA15DAE /* Pods_FishingAddictTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E7F4F82F35126BA2701D38 /* Pods_FishingAddictUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DA0CBF976A27A8EEAA66BA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6B9E109A9060837BB5D5C93 /* Pods-FishingAddict.debug.xcconfig */,
+				75AE1FF59281F4A4A5F09101 /* Pods-FishingAddict.release.xcconfig */,
+				8184AD80A6FBDF853380D72A /* Pods-FishingAddictTests.debug.xcconfig */,
+				4A20ED41B4AFEAF1C3FC6226 /* Pods-FishingAddictTests.release.xcconfig */,
+				6AD899EE324D29C4178075B9 /* Pods-FishingAddictUITests.debug.xcconfig */,
+				E59E93F879CE199E4D86EF65 /* Pods-FishingAddictUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2AF555BA21B3889700081884 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +116,12 @@
 				2AF555DD21B3889900081884 /* FishingAddictTests */,
 				2AF555E821B3889900081884 /* FishingAddictUITests */,
 				2AF555C421B3889700081884 /* Products */,
+				1DA0CBF976A27A8EEAA66BA2 /* Pods */,
+				40054D6C61D4E78207A48A5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
+			wrapsLines = 0;
 		};
 		2AF555C421B3889700081884 /* Products */ = {
 			isa = PBXGroup;
@@ -100,11 +137,15 @@
 			isa = PBXGroup;
 			children = (
 				2AF555C621B3889700081884 /* AppDelegate.swift */,
-				2AF555C821B3889700081884 /* ViewController.swift */,
-				2AF555CA21B3889700081884 /* Main.storyboard */,
+				2AF5560021B3CCBA00081884 /* Storyboards */,
+				2AF555FF21B3CC7E00081884 /* Views */,
+				2AF555FE21B3CC0000081884 /* Controllers */,
+				2AF5560A21B4875A00081884 /* Models */,
+				2AF5560821B4873800081884 /* Extensions */,
+				2AF5560721B4872500081884 /* Services */,
+				2AF5560921B4874B00081884 /* Supporting Files */,
+				2AF555F921B3B73800081884 /* FishingAddict.entitlements */,
 				2AF555D021B3889800081884 /* Assets.xcassets */,
-				2AF555D221B3889800081884 /* LaunchScreen.storyboard */,
-				2AF555D521B3889800081884 /* Info.plist */,
 				2AF555CD21B3889700081884 /* FishingAddict.xcdatamodeld */,
 			);
 			path = FishingAddict;
@@ -128,6 +169,71 @@
 			path = FishingAddictUITests;
 			sourceTree = "<group>";
 		};
+		2AF555FE21B3CC0000081884 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2AF555FC21B3CBEE00081884 /* LoginViewController.swift */,
+				2AF5560521B4758F00081884 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2AF555FF21B3CC7E00081884 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AF5560021B3CCBA00081884 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2AF555FA21B3CB4500081884 /* Login.storyboard */,
+				2AF5560321B4754100081884 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2AF5560721B4872500081884 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2AF5560821B4873800081884 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AF5560921B4874B00081884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AF555D521B3889800081884 /* Info.plist */,
+				2AF555F721B39A1600081884 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AF5560A21B4875A00081884 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40054D6C61D4E78207A48A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7210BB567676195CA98B4C66 /* Pods_FishingAddict.framework */,
+				689D2789CC187A6BB0BD4F4B /* Pods_FishingAddictTests.framework */,
+				1A23BCB27CE10E2CA070B6F6 /* Pods_FishingAddictUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF555EE21B3889900081884 /* Build configuration list for PBXNativeTarget "FishingAddict" */;
 			buildPhases = (
+				DD80671871D65832F124561D /* [CP] Check Pods Manifest.lock */,
 				2AF555BF21B3889700081884 /* Sources */,
 				2AF555C021B3889700081884 /* Frameworks */,
 				2AF555C121B3889700081884 /* Resources */,
+				9A4FC500C445BB3F9099D99D /* [CP] Embed Pods Frameworks */,
+				EF23BCC01F3EC4FA8394C418 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF555F121B3889900081884 /* Build configuration list for PBXNativeTarget "FishingAddictTests" */;
 			buildPhases = (
+				77D879E94ED644AC85D5BCF8 /* [CP] Check Pods Manifest.lock */,
 				2AF555D621B3889900081884 /* Sources */,
 				2AF555D721B3889900081884 /* Frameworks */,
 				2AF555D821B3889900081884 /* Resources */,
@@ -170,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF555F421B3889900081884 /* Build configuration list for PBXNativeTarget "FishingAddictUITests" */;
 			buildPhases = (
+				56A81AC4019062AF854AC9F7 /* [CP] Check Pods Manifest.lock */,
 				2AF555E121B3889900081884 /* Sources */,
 				2AF555E221B3889900081884 /* Frameworks */,
 				2AF555E321B3889900081884 /* Resources */,
@@ -196,6 +307,11 @@
 				TargetAttributes = {
 					2AF555C221B3889700081884 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					2AF555D921B3889900081884 = {
 						CreatedOnToolsVersion = 10.1;
@@ -232,9 +348,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF555D421B3889800081884 /* LaunchScreen.storyboard in Resources */,
+				2AF555FB21B3CB4500081884 /* Login.storyboard in Resources */,
+				2AF555F821B39A1600081884 /* GoogleService-Info.plist in Resources */,
 				2AF555D121B3889800081884 /* Assets.xcassets in Resources */,
-				2AF555CC21B3889700081884 /* Main.storyboard in Resources */,
+				2AF5560421B4754100081884 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +371,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56A81AC4019062AF854AC9F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishingAddictUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D879E94ED644AC85D5BCF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishingAddictTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4FC500C445BB3F9099D99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FishingAddict/Pods-FishingAddict-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FishingAddict/Pods-FishingAddict-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD80671871D65832F124561D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishingAddict-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF23BCC01F3EC4FA8394C418 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FishingAddict/Pods-FishingAddict-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FishingAddict/Pods-FishingAddict-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AF555BF21B3889700081884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF555C921B3889700081884 /* ViewController.swift in Sources */,
+				2AF555FD21B3CBEE00081884 /* LoginViewController.swift in Sources */,
 				2AF555CF21B3889700081884 /* FishingAddict.xcdatamodeld in Sources */,
 				2AF555C721B3889700081884 /* AppDelegate.swift in Sources */,
+				2AF5560621B4758F00081884 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +544,6 @@
 			targetProxy = 2AF555E621B3889900081884 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2AF555CA21B3889700081884 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AF555CB21B3889700081884 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2AF555D221B3889800081884 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AF555D321B3889800081884 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2AF555EC21B3889900081884 /* Debug */ = {
@@ -434,11 +664,14 @@
 		};
 		2AF555EF21B3889900081884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B9E109A9060837BB5D5C93 /* Pods-FishingAddict.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FishingAddict/FishingAddict.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3QNUPGMXQ;
-				INFOPLIST_FILE = FishingAddict/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FishingAddict/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +685,14 @@
 		};
 		2AF555F021B3889900081884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AE1FF59281F4A4A5F09101 /* Pods-FishingAddict.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FishingAddict/FishingAddict.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3QNUPGMXQ;
-				INFOPLIST_FILE = FishingAddict/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FishingAddict/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +706,7 @@
 		};
 		2AF555F221B3889900081884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8184AD80A6FBDF853380D72A /* Pods-FishingAddictTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +728,7 @@
 		};
 		2AF555F321B3889900081884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A20ED41B4AFEAF1C3FC6226 /* Pods-FishingAddictTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +750,7 @@
 		};
 		2AF555F521B3889900081884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD899EE324D29C4178075B9 /* Pods-FishingAddictUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +771,7 @@
 		};
 		2AF555F621B3889900081884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59E93F879CE199E4D86EF65 /* Pods-FishingAddictUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
