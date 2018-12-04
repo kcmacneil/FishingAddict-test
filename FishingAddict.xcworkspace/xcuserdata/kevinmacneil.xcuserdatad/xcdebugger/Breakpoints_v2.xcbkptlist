@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FishingAddict/Models/Post.swift"
+            timestampString = "565642889.203512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init(snapshot:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FishingAddict.Post.__allocating_init(snapshot: __C.FIRDataSnapshot) -&gt; Swift.Optional&lt;FishingAddict.Post&gt;"
+                  moduleName = "FishingAddict"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kevinmacneil/Documents/XCodeProjects/FishingAddict/FishingAddict/Models/Post.swift"
+                  timestampString = "565573894.0670919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FishingAddict.Post.init(snapshot: __C.FIRDataSnapshot) -&gt; Swift.Optional&lt;FishingAddict.Post&gt;"
+                  moduleName = "FishingAddict"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kevinmacneil/Documents/XCodeProjects/FishingAddict/FishingAddict/Models/Post.swift"
+                  timestampString = "565573894.068774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
