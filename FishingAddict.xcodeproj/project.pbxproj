@@ -16,7 +16,24 @@
 		2AF555FB21B3CB4500081884 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF555FA21B3CB4500081884 /* Login.storyboard */; };
 		2AF555FD21B3CBEE00081884 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF555FC21B3CBEE00081884 /* LoginViewController.swift */; };
 		2AF5560421B4754100081884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF5560321B4754100081884 /* Main.storyboard */; };
-		2AF5560621B4758F00081884 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5560521B4758F00081884 /* MainViewController.swift */; };
+		2AF5560D21B4C34500081884 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5560C21B4C34500081884 /* User.swift */; };
+		2AF5560F21B4CC0100081884 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5560E21B4CC0100081884 /* CreateUsernameViewController.swift */; };
+		2AF5561121B4D8D300081884 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561021B4D8D300081884 /* UserService.swift */; };
+		2AF5561321B4E5B900081884 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561221B4E5B900081884 /* Constants.swift */; };
+		2AF5561521B4EA2100081884 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561421B4EA2100081884 /* Storyboard+Utility.swift */; };
+		2AF5561721B5016100081884 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561621B5016100081884 /* HomeViewController.swift */; };
+		2AF5561921B501DE00081884 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561821B501DE00081884 /* FindFriendsViewController.swift */; };
+		2AF5561B21B56B7900081884 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561A21B56B7900081884 /* MainTabBarController.swift */; };
+		2AF5561E21B56F1F00081884 /* FAPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561D21B56F1F00081884 /* FAPhotoHelper.swift */; };
+		2AF5562021B59EBB00081884 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5561F21B59EBB00081884 /* StorageService.swift */; };
+		2AF5562221B5A94800081884 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5562121B5A94800081884 /* PostService.swift */; };
+		2AF5562421B5AF6F00081884 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5562321B5AF6F00081884 /* Post.swift */; };
+		2AF5562621B5B25400081884 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5562521B5B25400081884 /* UIImage+Size.swift */; };
+		2AF5562821B5B33500081884 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5562721B5B33500081884 /* StorageReference+Post.swift */; };
+		2AF5562A21B5B8DA00081884 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF5562921B5B8DA00081884 /* Home.storyboard */; };
+		2AF5562E21B5F56B00081884 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5562D21B5F56B00081884 /* PostImageCell.swift */; };
+		2AF5563021B63D8200081884 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5562F21B63D8200081884 /* PostHeaderCell.swift */; };
+		2AF5563221B654A100081884 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5563121B654A100081884 /* PostActionCell.swift */; };
 		741ADA76968DEBB23CA15DAE /* Pods_FishingAddictTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689D2789CC187A6BB0BD4F4B /* Pods_FishingAddictTests.framework */; };
 		B9E7F4F82F35126BA2701D38 /* Pods_FishingAddictUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A23BCB27CE10E2CA070B6F6 /* Pods_FishingAddictUITests.framework */; };
 		BE560F800AAC4FC508B19282 /* Pods_FishingAddict.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7210BB567676195CA98B4C66 /* Pods_FishingAddict.framework */; };
@@ -57,7 +74,24 @@
 		2AF555FA21B3CB4500081884 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		2AF555FC21B3CBEE00081884 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2AF5560321B4754100081884 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2AF5560521B4758F00081884 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2AF5560C21B4C34500081884 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2AF5560E21B4CC0100081884 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		2AF5561021B4D8D300081884 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2AF5561221B4E5B900081884 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2AF5561421B4EA2100081884 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		2AF5561621B5016100081884 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2AF5561821B501DE00081884 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		2AF5561A21B56B7900081884 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2AF5561D21B56F1F00081884 /* FAPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAPhotoHelper.swift; sourceTree = "<group>"; };
+		2AF5561F21B59EBB00081884 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		2AF5562121B5A94800081884 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		2AF5562321B5AF6F00081884 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2AF5562521B5B25400081884 /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		2AF5562721B5B33500081884 /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		2AF5562921B5B8DA00081884 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2AF5562D21B5F56B00081884 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		2AF5562F21B63D8200081884 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		2AF5563121B654A100081884 /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		4A20ED41B4AFEAF1C3FC6226 /* Pods-FishingAddictTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddictTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddictTests/Pods-FishingAddictTests.release.xcconfig"; sourceTree = "<group>"; };
 		689D2789CC187A6BB0BD4F4B /* Pods_FishingAddictTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishingAddictTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD899EE324D29C4178075B9 /* Pods-FishingAddictUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingAddictUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishingAddictUITests/Pods-FishingAddictUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,8 +178,9 @@
 				2AF5560821B4873800081884 /* Extensions */,
 				2AF5560721B4872500081884 /* Services */,
 				2AF5560921B4874B00081884 /* Supporting Files */,
-				2AF555F921B3B73800081884 /* FishingAddict.entitlements */,
+				2AF5561C21B56EAE00081884 /* Helpers */,
 				2AF555D021B3889800081884 /* Assets.xcassets */,
+				2AF555F921B3B73800081884 /* FishingAddict.entitlements */,
 				2AF555CD21B3889700081884 /* FishingAddict.xcdatamodeld */,
 			);
 			path = FishingAddict;
@@ -173,7 +208,10 @@
 			isa = PBXGroup;
 			children = (
 				2AF555FC21B3CBEE00081884 /* LoginViewController.swift */,
-				2AF5560521B4758F00081884 /* MainViewController.swift */,
+				2AF5560E21B4CC0100081884 /* CreateUsernameViewController.swift */,
+				2AF5561621B5016100081884 /* HomeViewController.swift */,
+				2AF5561821B501DE00081884 /* FindFriendsViewController.swift */,
+				2AF5561A21B56B7900081884 /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +219,9 @@
 		2AF555FF21B3CC7E00081884 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2AF5562D21B5F56B00081884 /* PostImageCell.swift */,
+				2AF5562F21B63D8200081884 /* PostHeaderCell.swift */,
+				2AF5563121B654A100081884 /* PostActionCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +231,7 @@
 			children = (
 				2AF555FA21B3CB4500081884 /* Login.storyboard */,
 				2AF5560321B4754100081884 /* Main.storyboard */,
+				2AF5562921B5B8DA00081884 /* Home.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -197,6 +239,9 @@
 		2AF5560721B4872500081884 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2AF5561021B4D8D300081884 /* UserService.swift */,
+				2AF5561F21B59EBB00081884 /* StorageService.swift */,
+				2AF5562121B5A94800081884 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -204,6 +249,9 @@
 		2AF5560821B4873800081884 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2AF5561421B4EA2100081884 /* Storyboard+Utility.swift */,
+				2AF5562521B5B25400081884 /* UIImage+Size.swift */,
+				2AF5562721B5B33500081884 /* StorageReference+Post.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -213,6 +261,7 @@
 			children = (
 				2AF555D521B3889800081884 /* Info.plist */,
 				2AF555F721B39A1600081884 /* GoogleService-Info.plist */,
+				2AF5561221B4E5B900081884 /* Constants.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,8 +269,18 @@
 		2AF5560A21B4875A00081884 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2AF5560C21B4C34500081884 /* User.swift */,
+				2AF5562321B5AF6F00081884 /* Post.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2AF5561C21B56EAE00081884 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2AF5561D21B56F1F00081884 /* FAPhotoHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		40054D6C61D4E78207A48A5B /* Frameworks */ = {
@@ -349,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF555FB21B3CB4500081884 /* Login.storyboard in Resources */,
+				2AF5562A21B5B8DA00081884 /* Home.storyboard in Resources */,
 				2AF555F821B39A1600081884 /* GoogleService-Info.plist in Resources */,
 				2AF555D121B3889800081884 /* Assets.xcassets in Resources */,
 				2AF5560421B4754100081884 /* Main.storyboard in Resources */,
@@ -431,6 +491,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -443,6 +504,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,8 +571,24 @@
 			files = (
 				2AF555FD21B3CBEE00081884 /* LoginViewController.swift in Sources */,
 				2AF555CF21B3889700081884 /* FishingAddict.xcdatamodeld in Sources */,
+				2AF5561B21B56B7900081884 /* MainTabBarController.swift in Sources */,
+				2AF5560F21B4CC0100081884 /* CreateUsernameViewController.swift in Sources */,
+				2AF5562621B5B25400081884 /* UIImage+Size.swift in Sources */,
 				2AF555C721B3889700081884 /* AppDelegate.swift in Sources */,
-				2AF5560621B4758F00081884 /* MainViewController.swift in Sources */,
+				2AF5562821B5B33500081884 /* StorageReference+Post.swift in Sources */,
+				2AF5563221B654A100081884 /* PostActionCell.swift in Sources */,
+				2AF5562E21B5F56B00081884 /* PostImageCell.swift in Sources */,
+				2AF5561121B4D8D300081884 /* UserService.swift in Sources */,
+				2AF5561921B501DE00081884 /* FindFriendsViewController.swift in Sources */,
+				2AF5563021B63D8200081884 /* PostHeaderCell.swift in Sources */,
+				2AF5562021B59EBB00081884 /* StorageService.swift in Sources */,
+				2AF5561E21B56F1F00081884 /* FAPhotoHelper.swift in Sources */,
+				2AF5562421B5AF6F00081884 /* Post.swift in Sources */,
+				2AF5562221B5A94800081884 /* PostService.swift in Sources */,
+				2AF5561721B5016100081884 /* HomeViewController.swift in Sources */,
+				2AF5560D21B4C34500081884 /* User.swift in Sources */,
+				2AF5561521B4EA2100081884 /* Storyboard+Utility.swift in Sources */,
+				2AF5561321B4E5B900081884 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

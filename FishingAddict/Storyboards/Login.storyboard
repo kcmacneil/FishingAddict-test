@@ -78,11 +78,82 @@
                     <navigationItem key="navigationItem" id="toT-Pg-fcB"/>
                     <connections>
                         <outlet property="loginButton" destination="LoG-Ye-HQx" id="sZI-b2-LMF"/>
+                        <segue destination="gQB-vK-HDM" kind="show" identifier="toCreateUsername" id="ZnA-D4-8oG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B1e-0X-i5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="604" y="-27.436281859070466"/>
+        </scene>
+        <!--Create Username View Controller-->
+        <scene sceneID="rZt-xg-bZa">
+            <objects>
+                <viewController storyboardIdentifier="CreateUsernameViewController" id="gQB-vK-HDM" customClass="CreateUsernameViewController" customModule="FishingAddict" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RbW-qE-iqm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="LBY-dc-ibm">
+                                <rect key="frame" x="52" y="65" width="271" height="191.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ko-MG-Jxu">
+                                        <rect key="frame" x="45" y="0.0" width="181" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your username will appear on posts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZK-DL-JGE">
+                                        <rect key="frame" x="0.0" y="47" width="271" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zzA-Gu-C9b">
+                                        <rect key="frame" x="0.0" y="85.5" width="271" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="y54-hg-5eB"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gke-QN-2VW">
+                                        <rect key="frame" x="0.0" y="147.5" width="271" height="44"/>
+                                        <color key="backgroundColor" red="0.3059991011" green="0.25669104640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="kFV-cy-nfh"/>
+                                        </constraints>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="nextButtonTapped:" destination="gQB-vK-HDM" eventType="touchUpInside" id="30h-8A-wb0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gke-QN-2VW" firstAttribute="leading" secondItem="LBY-dc-ibm" secondAttribute="leading" id="4vZ-gq-zyU"/>
+                                    <constraint firstAttribute="trailing" secondItem="zzA-Gu-C9b" secondAttribute="trailing" id="ma3-0T-UZ2"/>
+                                    <constraint firstItem="zzA-Gu-C9b" firstAttribute="leading" secondItem="LBY-dc-ibm" secondAttribute="leading" id="tGf-ID-i6A"/>
+                                    <constraint firstAttribute="trailing" secondItem="gke-QN-2VW" secondAttribute="trailing" id="uLA-Oi-WUs"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LBY-dc-ibm" firstAttribute="top" secondItem="SHY-ki-kY5" secondAttribute="top" constant="45" id="87u-yq-30i"/>
+                            <constraint firstItem="LBY-dc-ibm" firstAttribute="centerX" secondItem="RbW-qE-iqm" secondAttribute="centerX" id="b0H-Mv-m0V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SHY-ki-kY5"/>
+                    </view>
+                    <connections>
+                        <outlet property="nextButton" destination="gke-QN-2VW" id="tWg-xI-NIG"/>
+                        <outlet property="usernameTextField" destination="zzA-Gu-C9b" id="MGA-sN-1cy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xyb-kn-B4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1305" y="-27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hks-Js-ndq">
