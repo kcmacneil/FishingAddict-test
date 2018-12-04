@@ -7,6 +7,7 @@
 //
 import UIKit
 
+// not completed
 class PostImageCell: UITableViewCell {
 	
 	@IBOutlet weak var postImageView: UIImageView!
