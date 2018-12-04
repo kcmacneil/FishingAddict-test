@@ -1,0 +1,6 @@
+framework module Pods_FishingAddictUITests {
+  umbrella header "Pods-FishingAddictUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
